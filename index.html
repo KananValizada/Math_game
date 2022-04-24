@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button class="btn_substract">Çıxma</button>
+      <button class="btn_sum">Toplama</button>
+      <button class="btn_times">Vurma</button>
+      <button class="btn_divide">Bölmə</button>
+    </div>
+
+    <div class="gameZone">
+      <div class="curtainLeft"></div>
+      <div class="curtainRight"></div>
+      <div class="mainZone">
+        <div class="mainLeft">
+          <p class="question">2 + 3</p>
+          <input type="number" class="answer" />
+          <button class="answerBtn">Təsdiqlə</button>
+        </div>
+        <div class="mainRight">
+          <h2 class="timer">timer</h2>
+          <h3 class="score">Nəticə: 0</h3>
+        </div>
+      </div>
+      <div class="results">
+        <p class="maxResult hidden">Rekord: 15</p>
+        <p class="finalResult hidden">Nəticə 10</p>
+        <button class="startBTN">Testə başla</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
